@@ -1,6 +1,6 @@
 package edu.patytux.duckdinasty;
 
-public interface Quackable {
+public interface QuackBehavior {
 
     void quack();
 

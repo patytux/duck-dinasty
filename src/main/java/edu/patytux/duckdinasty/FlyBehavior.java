@@ -1,6 +1,6 @@
 package edu.patytux.duckdinasty;
 
-public interface Flyable {
+public interface FlyBehavior {
 
     void fly();
 
