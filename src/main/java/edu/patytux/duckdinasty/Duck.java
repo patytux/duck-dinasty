@@ -7,7 +7,11 @@ public abstract class Duck {
     }
 
     public void swim() {
-        System.out.println("Swim");
+        System.out.println("Swimming");
+    }
+
+    public void fly() {
+        System.out.println("Flying");
     }
 
     abstract void display();
