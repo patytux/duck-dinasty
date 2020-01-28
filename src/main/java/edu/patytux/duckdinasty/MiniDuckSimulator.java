@@ -1,5 +1,13 @@
 package edu.patytux.duckdinasty;
 
+import edu.patytux.duckdinasty.duck.RubberDuck;
+import edu.patytux.duckdinasty.duck.RedheadDuck;
+import edu.patytux.duckdinasty.duck.ModelDuck;
+import edu.patytux.duckdinasty.duck.MallardDuck;
+import edu.patytux.duckdinasty.duck.DecoyDuck;
+import edu.patytux.duckdinasty.duck.Duck;
+import edu.patytux.duckdinasty.fly.FlyRocketPowered;
+
 public class MiniDuckSimulator {
 
     public static void main(String[] args) {
@@ -22,6 +30,12 @@ public class MiniDuckSimulator {
         decoy.display();
         decoy.performQuack();
         decoy.performFly();
+
+        Duck model = new ModelDuck();
+        model.display();
+        model.performFly();
+        model.setFlyBehavior(new FlyRocketPowered());
+        model.performFly();
     }
 
 }

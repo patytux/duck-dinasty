@@ -1,4 +1,4 @@
-package edu.patytux.duckdinasty;
+package edu.patytux.duckdinasty.quack;
 
 public class Quack implements QuackBehavior {
 

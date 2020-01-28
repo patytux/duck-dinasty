@@ -1,4 +1,4 @@
-package edu.patytux.duckdinasty;
+package edu.patytux.duckdinasty.fly;
 
 public class FlyNoWay implements FlyBehavior {
 
