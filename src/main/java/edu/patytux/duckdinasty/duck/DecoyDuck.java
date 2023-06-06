@@ -12,6 +12,7 @@ public class DecoyDuck extends Duck {
 
     @Override
     public void display() {
+        String x = "xxxx";
         System.out.println("I'm a decoy duck");
     }
 
