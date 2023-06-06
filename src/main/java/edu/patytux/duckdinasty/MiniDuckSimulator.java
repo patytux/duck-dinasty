@@ -31,6 +31,7 @@ public class MiniDuckSimulator {
         decoy.performQuack();
         decoy.performFly();
 
+        String unuseVar = "Unused variable";
         Duck model = new ModelDuck();
         model.display();
         model.performFly();
